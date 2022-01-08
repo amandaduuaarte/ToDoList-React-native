@@ -1,20 +1,16 @@
 import React from 'react';
-import {SafeAreaView, Text, StyleSheet} from 'react-native';
+import {Container} from './src/style/globalStyle'
+
+import Header from './src/components/Header/index'
+
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <Text style={styles.text}>Hello World</Text>
-    </SafeAreaView>
+      <Container>
+        <Header/>
+      </Container>
   );
 };
 
-const styles = StyleSheet.create({
-  text: {
-    fontSize: 15,
-    marginVertical: 10,
-    marginHorizontal: 10,
-  },
-});
 
 export default App;
