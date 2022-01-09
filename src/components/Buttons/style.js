@@ -21,9 +21,10 @@ export const ToDoButton = styled.TouchableOpacity`
   background:#414052;
   border-radius:20px;
   height: 48px;
-  width: 163px;
+  width: 155px;
   padding-top:14px;
   padding-bottom:14px;
+  margin-left:9px;
   align-items: center;
 `;
 

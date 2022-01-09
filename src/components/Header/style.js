@@ -8,10 +8,6 @@ export const Container = styled.View`
 
 `;
 
-export const Img = styled.Image`
-  height: 40px;
-  width: 121px;
-`;
 
 export const TaksButton = styled.TouchableOpacity`
   background:#AC6DDE;
