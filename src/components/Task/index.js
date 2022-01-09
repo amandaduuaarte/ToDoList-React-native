@@ -1,6 +1,7 @@
 import React from 'react'
-import {Container, Header, TitleTaks, Body, TaskText, Footer} from './style'
-import {ScrollView} from 'react-native'
+import {
+  Container, Header, TitleTaks, Body, TaskText, Footer,TextFooter
+} from './style'
 
 
 import DotIcon from '../../assets/images/DotIcon'
@@ -18,14 +19,16 @@ const Task = () =>{
       </Header>
       <Body>
         <TaskText>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Ultricies eget neque, libero, massa morbi aliquam ornare. 
+        Et tristique sit faucibus suspendisse massa sit turpis vitae. 
+        Aliquam eget ipsum ut viverra est porta. Odio velit et, egestas in netus. 
+        Porttitor amet erat scelerisque aenean enim tortor, gravida quisque. 
+        Egestas dui non commodo phasellus nibh volutpat nulla in. 
         </TaskText>
       </Body>
       <Footer>
+        <TextFooter>Created March 30, 2021 1:24pm</TextFooter>
       </Footer>
     </Container>
   )
